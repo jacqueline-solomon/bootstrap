@@ -56,6 +56,108 @@ body{
     border-radius: 5px;
     color: black;
 }
+.imgs img {
+
+    width: 70%;
+    height: 450px;
+    object-fit: cover;
+
+}
+
+
+.card-main{
+    padding: 20px;
+    display:flex;
+    justify-content: center;
+}
+
+.card-product {
+    text-align: center;
+    box-shadow: lightgray;
+}
+.card-product img{
+    height: 200px;
+    padding: 5px;
+}
+.card-product-body{
+    height: 320px;
+}
+
+.card-product:hover{
+    background-color: rgba(255, 0, 0, 0.562);
+    color: lightgrey;
+    font-size: 17px;
+
+}
+.testimony-img{
+    position: relative;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
+}
+
+.testimony-body{
+    height: 320px;
+}
+
+
+.testimony-img img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+    
+}
+
+.testimony-main:hover .testimony-body{
+    background-color: blueviolet;
+    color: lightgrey;
+    font-size: 17px;
+}
+.contact-us{
+    background:lightgray;
+    height: 500px;
+    }
+    .contact-us h1{
+        color:peru;
+        padding: 20px 0;
+    }
+    .contact-us-form{
+            width: 80%;
+            margin: 0 auto;
+            height: 400px;
+            backdrop-filter: blur(5px);
+            border-radius: 5px;
+    }
+    form{
+        width: 70%;
+        margin: 0 auto;
+    }
+    .forms{
+        padding: 10px;
+    }
+    
+    input{
+        height: 40px;
+        border-radius: 5px; 
+        border: 1px solid blue;
+        background: none;
+        width: 90%;
+        padding: 0 10px;
+    }
+    
+    ::placeholder{
+        color: rgb(17, 1, 1);
+    }
+    
+    .s-btn{
+        width: 30%;
+        border: 1px solid blue;
+        color: rgb(164, 75, 75);
+        height: 40px;
+    }
+    
+    .s-btn:hover{
+        background-color: rgb(105, 66, 66);
+        color: rgb(237, 218, 193);
+    }
 .w-100{
     height: 100vh;
 }
