@@ -62,20 +62,15 @@ body{
 .services .card-body i{
     font-size: 50px;
 }
-
-
-
-
-
-
-
-
 @media only screen and (min-width:768px) and (max-width:991px) {
     .carousel-caption{
         bottom: 370px;
     }
     .carousel-caption p{
         width: 100%;
+    }
+    .img-area img{
+        width:100%;
     }
     
 }
@@ -97,4 +92,10 @@ body{
          line-height: 1.6;
          font-size: 12px;
 }
+    .about-text{
+        padding-top: 50px;
+    }
+    .card{
+        margin-bottom: 30px;
+    }
 }
