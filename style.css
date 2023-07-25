@@ -1,11 +1,14 @@
 *{
     font-family: montserrat;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 body{
-    background:#f1fbff;
+    background:#bfe4f3;
 }
 .section-padding{
-    padding: 100px 0;
+    padding: 50px 0;
 }
 .carousel-item{
     height: 100vh;
@@ -37,11 +40,6 @@ body{
     background: rgba(0, 0, 0, 0.356);
     z-index : 1;
 }
-.navbar-nav a{
-    font-size: 15px;
-    text-transform: uppercase;
-    font-weight: 500;
-}
 .navbar-nav{
     margin-left: 50px;
 }
@@ -55,6 +53,24 @@ body{
     background: lightgray;
     border-radius: 5px;
     color: black;
+}
+.benifit-card {
+    height: 200px;
+    text-align: center;
+    box-shadow: 0 3px 10px lightgrey;
+    border: none;
+    margin: 10px;
+    justify-content: center;
+}
+
+.benifit-card-body {
+    background-color: goldenrod;
+    color: white;
+
+}
+.benifit-card-body:hover{
+    color: rgb(84, 1, 1);
+    background-color: lightgoldenrodyellow;
 }
 .imgs img {
 
@@ -89,22 +105,24 @@ body{
     font-size: 17px;
 
 }
-.testimony-img{
-    position: relative;
+.testimony-main{
+    height: 400px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
+    
+}
+.testimony-main img{
+    height: 200px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
+    
 }
 
 .testimony-body{
     height: 320px;
+
 }
 
 
-.testimony-img img{
-    width: 100%;
-    height: 400px;
-    object-fit: cover;
-    
-}
+
 
 .testimony-main:hover .testimony-body{
     background-color: blueviolet;
@@ -158,12 +176,36 @@ body{
         background-color: rgb(105, 66, 66);
         color: rgb(237, 218, 193);
     }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .w-100{
     height: 100vh;
 }
 .services .card-body i{
     font-size: 50px;
 }
+
+
+
+
+
+
+
+
 @media only screen and (min-width:768px) and (max-width:991px) {
     .carousel-caption{
         bottom: 370px;
@@ -194,7 +236,7 @@ body{
          line-height: 1.6;
          font-size: 12px;
 }
-    .about-text{
+.about-text{
         padding-top: 50px;
     }
     .card{
